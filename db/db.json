@@ -1,18 +1,230 @@
 {
-  "usuarios": [
+  "jogos": [
     {
-      "id": "187cb7e5-e097-4224-8bc7-b610c855e2b1",
-      "login": "admin",
-      "senha": "123",
-      "nome": "Administrador do Sistema",
-      "email": "admin@abc.com"
+      "id": 1,
+      "titulo": "The Legend of Zelda: Breath of the Wild",
+      "descricaoCurta": "Aventura em mundo aberto no reino de Hyrule.",
+      "descricaoCompleta": "Um dos maiores jogos de mundo aberto já criados. Explore montanhas, florestas e dungeons enquanto tenta salvar Hyrule de Calamity Ganon.",
+      "imagem": "https://upload.wikimedia.org/wikipedia/en/c/c6/The_Legend_of_Zelda_Breath_of_the_Wild.jpg",
+      "categoria": "Aventura",
+      "preco": 299.9,
+      "tags": [
+        "mundo aberto",
+        "nintendo",
+        "fantasia"
+      ],
+      "destaque": true,
+      "desenvolvedora": "Nintendo",
+      "ano": 2017
     },
     {
-      "id": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
-      "login": "user",
-      "senha": "123",
-      "nome": "Usuario Comum",
-      "email": "user@abc.com"
+      "id": 2,
+      "titulo": "God of War",
+      "descricaoCurta": "Kratos e seu filho Atreus viajam pelos Nove Reinos.",
+      "descricaoCompleta": "Uma jornada épica pela mitologia nórdica. Kratos enfrenta deuses e monstros ao lado de seu filho Atreus.",
+      "imagem": "https://upload.wikimedia.org/wikipedia/en/a/a7/God_of_War_4_cover.jpg",
+      "categoria": "Ação",
+      "preco": 249.9,
+      "tags": [
+        "mitologia",
+        "ação",
+        "ps4"
+      ],
+      "destaque": true,
+      "desenvolvedora": "Santa Monica Studio",
+      "ano": 2018
+    },
+    {
+      "id": 3,
+      "titulo": "Red Dead Redemption 2",
+      "descricaoCurta": "Faroeste épico sobre honra, lealdade e sobrevivência.",
+      "descricaoCompleta": "Acompanhe Arthur Morgan e a gangue Van der Linde no fim da era do velho oeste americano.",
+      "imagem": "https://upload.wikimedia.org/wikipedia/en/4/44/Red_Dead_Redemption_II.jpg",
+      "categoria": "Mundo Aberto",
+      "preco": 199.9,
+      "tags": [
+        "faroeste",
+        "rockstar",
+        "mundo aberto"
+      ],
+      "destaque": true,
+      "desenvolvedora": "Rockstar Games",
+      "ano": 2018
+    },
+    {
+      "id": 4,
+      "titulo": "Hollow Knight",
+      "descricaoCurta": "Metroidvania sombrio no reino subterrâneo de Hallownest.",
+      "descricaoCompleta": "Explore um vasto reino de insetos e cavernas com atmosfera única, chefes desafiadores e narrativa misteriosa.",
+      "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/367520/header.jpg",
+      "categoria": "Indie",
+      "preco": 37.99,
+      "tags": [
+        "metroidvania",
+        "indie",
+        "difícil"
+      ],
+      "destaque": false,
+      "desenvolvedora": "Team Cherry",
+      "ano": 2017
+    },
+    {
+      "id": 5,
+      "titulo": "Cyberpunk 2077",
+      "descricaoCurta": "RPG futurista no mundo distópico de Night City.",
+      "descricaoCompleta": "Assuma o papel de V, um mercenário em busca de imortalidade em uma cidade controlada por megacorporações.",
+      "imagem": "https://upload.wikimedia.org/wikipedia/en/9/9f/Cyberpunk_2077_box_art.jpg",
+      "categoria": "RPG",
+      "preco": 179.9,
+      "tags": [
+        "futurista",
+        "rpg",
+        "mundo aberto"
+      ],
+      "destaque": false,
+      "desenvolvedora": "CD Projekt Red",
+      "ano": 2020
+    },
+    {
+      "id": 6,
+      "titulo": "Elden Ring",
+      "descricaoCurta": "RPG de ação sombrio em um vasto mundo fantasioso.",
+      "descricaoCompleta": "Explore as Terras Intermédias, um mundo criado por Hidetaka Miyazaki e George R.R. Martin, repleto de desafios e lore profundo.",
+      "imagem": "https://upload.wikimedia.org/wikipedia/en/b/b9/Elden_Ring_Box_art.jpg",
+      "categoria": "RPG",
+      "preco": 249.9,
+      "tags": [
+        "soulslike",
+        "difícil",
+        "fantasia"
+      ],
+      "destaque": true,
+      "desenvolvedora": "FromSoftware",
+      "ano": 2022
+    },
+    {
+      "id": 7,
+      "titulo": "The Witcher 3: Wild Hunt",
+      "descricaoCurta": "Geralt de Rívia busca sua filha adotiva Ciri.",
+      "descricaoCompleta": "Um RPG de mundo aberto aclamado pela crítica, com narrativa profunda, escolhas morais e um mundo vivo cheio de detalhes.",
+      "imagem": "https://upload.wikimedia.org/wikipedia/en/0/0c/Witcher_3_cover_art.jpg",
+      "categoria": "RPG",
+      "preco": 59.9,
+      "tags": [
+        "rpg",
+        "mundo aberto",
+        "fantasia"
+      ],
+      "destaque": false,
+      "desenvolvedora": "CD Projekt Red",
+      "ano": 2015
+    },
+    {
+      "id": 8,
+      "titulo": "Dark Souls III",
+      "descricaoCurta": "Enfrente inimigos brutais em um mundo em ruínas.",
+      "descricaoCompleta": "O terceiro capítulo da aclamada série Souls. Combate preciso, level design magistral e atmosfera opressiva.",
+      "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/374320/header.jpg",
+      "categoria": "Ação",
+      "preco": 89.9,
+      "tags": [
+        "soulslike",
+        "difícil",
+        "ação"
+      ],
+      "destaque": false,
+      "desenvolvedora": "FromSoftware",
+      "ano": 2016
+    },
+    {
+      "id": 9,
+      "titulo": "Hades",
+      "descricaoCurta": "Escape do submundo grego neste roguelike premiado.",
+      "descricaoCompleta": "Jogue como Zagreus, filho de Hades, tentando escapar do submundo. Cada tentativa revela mais da história e dos personagens.",
+      "imagem": "https://upload.wikimedia.org/wikipedia/en/c/cc/Hades_cover_art.jpg",
+      "categoria": "Indie",
+      "preco": 49.9,
+      "tags": [
+        "roguelike",
+        "indie",
+        "mitologia"
+      ],
+      "destaque": false,
+      "desenvolvedora": "Supergiant Games",
+      "ano": 2020
+    },
+    {
+      "id": 10,
+      "titulo": "Batman: Arkham Knight",
+      "descricaoCurta": "Batman enfrenta sua maior ameaça em Gotham City.",
+      "descricaoCompleta": "A conclusão épica da trilogia Arkham. Dirija o Batmóvel e enfrente o Espantalho e o misterioso Arkham Knight.",
+      "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/208650/header.jpg",
+      "categoria": "Ação",
+      "preco": 69.9,
+      "tags": [
+        "super-herói",
+        "ação",
+        "dc"
+      ],
+      "destaque": false,
+      "desenvolvedora": "Rocksteady Studios",
+      "ano": 2015
+    },
+    {
+      "titulo": "Persona 5 Royal",
+      "categoria": "RPG",
+      "desenvolvedora": "Atlus",
+      "ano": 2019,
+      "preco": 199.9,
+      "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/1687950/header.jpg",
+      "descricaoCurta": "Estudantes que viram fantasmas ladrões para mudar corações corruptos.",
+      "descricaoCompleta": "Completa: Uma reedição definitiva de Persona 5, com novos personagens, cenas e um semestre extra na trama, unindo RPG por turnos com simulador de vida escolar.",
+      "destaque": false,
+      "tags": [
+        "rpg",
+        "anime",
+        "turnos"
+      ],
+      "id": 12
+    },
+    {
+      "titulo": "Stardew Valley",
+      "categoria": "Simulação",
+      "desenvolvedora": "ConcernedApe",
+      "ano": 2016,
+      "preco": 29.9,
+      "imagem": "https://cdn.cloudflare.steamstatic.com/steam/apps/413150/header.jpg",
+      "descricaoCurta": "Construa sua fazenda dos sonhos no campo.",
+      "descricaoCompleta": "Um simulador de fazenda relaxante com pesca, mineração, relacionamentos e customização.",
+      "destaque": false,
+      "tags": [
+        "indie",
+        "pixel",
+        "fazenda"
+      ],
+      "id": 13
+    }
+  ],
+  "categorias": [
+    {
+      "id": 1,
+      "nome": "Aventura"
+    },
+    {
+      "id": 2,
+      "nome": "Ação"
+    },
+    {
+      "id": 3,
+      "nome": "RPG"
+    },
+    {
+      "id": 4,
+      "nome": "Indie"
+    },
+    {
+      "id": 5,
+      "nome": "Mundo Aberto"
     }
   ]
 }
